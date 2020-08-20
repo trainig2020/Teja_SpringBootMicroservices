@@ -1,0 +1,14 @@
+my:
+ greeting: Hello
+ list:
+  value: One,Two,Three
+
+
+db:
+ connection: test-service
+ host: 128.0.0.5
+ port: 8585
+
+
+management.endpoints.web.exposure.include: "*"
+
